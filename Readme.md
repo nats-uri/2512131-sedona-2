@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Наталья Уривалова](https://up.htmlacademy.ru/htmlcss-individual/2/user/2512131).
-* Наставник: `Неизвестно`.
+* Наставник: [Оксана Вайнруб](https://htmlacademy.ru/profile/id166797).
 * Сайт: [Мой проект Седона](https://nats-uri.github.io/2512131-sedona-2/).
 ---
 
