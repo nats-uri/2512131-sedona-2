@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/ptsans-400.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/ptsans-700.woff2) format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navigation-favorite-number {
+  font-size: 10px;
+  line-height: 10px;
+  color: #FFFFFF;
+  background-color: #7DB54F;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #756157;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero-background-image {
+  background-color: #000000;
+  background-image: url(../images/hero/hero-background.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.advantages-item {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  background-color: rgba(131, 179, 211, 0.12);
+  list-style: none;
+}
+
+.advantages-item:nth-child(3) {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-item-bg-white {
+  background-color: #ffffff;
+}
+
+.advantages-item-big {
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.advantages-item-big .advantage-title {
+  color: #ffffff;
+}
+
+.advantage-title {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.advantage-invitation-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.reservation {
+  text-align: center;
+}
+
+.reservation-button {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.subscribe {
+  text-align: center;
+  color: #ffffff;
+  background-color: #756157;
+  background-image: url(../images/subscribe-background.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.subscribe-title {
+  color: #ffffff;
+}
+
+.subscribe-button {
+  font-size: 20px;
+  line-height: 36px;
+  background-color: #82B3D3;
+}
+
+.contact-phone {
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #000000;
+}
