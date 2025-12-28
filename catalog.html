@@ -31,7 +31,7 @@
           <li class="navigation-item">
             <a class="navigation-link" href="#">
               <span class="visually-hidden">Избранное, количество гостиниц</span>
-              <span>12</span>
+              <span class="navigation-favorite-number">12</span>
             </a>
           </li>
         </ul>
@@ -42,19 +42,22 @@
     </header>
 
     <main class="main-catalog">
-      <header class="catalog-header">
-        <h1 class="catalog-header-title">Гостиницы Седоны</h1>
-        <ul class="breadcrumbs">
-          <li class="breadcrumbs-item">
-            <a class="visually-hidden breadcrumbs-link" href="index.html">Главная</a>
-          </li>
-          <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link">Гостиницы</a>
-          </li>
-        </ul>
-      </header>
 
       <section class="catalog-filter">
+
+        <header class="catalog-header">
+          <h1 class="catalog-header-title">Гостиницы Седоны</h1>
+          <ul class="breadcrumbs">
+            <li class="breadcrumbs-item">
+              <a class="visually-hidden breadcrumbs-link" href="index.html">Главная</a>
+            </li>
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link">Гостиницы</a>
+            </li>
+          </ul>
+        </header>
+
+
         <h2 class="visually-hidden">Фильтр для поиска гостиницы</h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
 
@@ -114,7 +117,7 @@
             </p>
           </fieldset>
 
-          <button class="button button-submit" type="submit">Применить</button>
+          <button class="button button-blue button-submit" type="submit">Применить</button>
           <button class="button button-clear" type="reset">Сбросить</button>
         </form>
 
@@ -122,17 +125,17 @@
 
       <section class="catalog-result">
 
-        <h2 class="section-title catalog-result-title">Найдено гостиниц: 38</h2>
+        <h2 class="title catalog-result-title">Найдено гостиниц: 38</h2>
         <select class="select-control" aria-label="Сортировка">
           <option value="cheap">Сначала дешёвые</option>
         </select>
-        <a class="button" href="#">
+        <a class="button button-white" href="#">
           <span class="visually-hidden">Показать карточки</span>
         </a>
-        <a href="#" class="button button-light">
+        <a href="#" class="button button-white">
           <span class="visually-hidden">Показать полным размером</span>
         </a>
-        <a href="#" class="button button-light">
+        <a href="#" class="button button-white">
           <span class="visually-hidden">Показать список</span>
         </a>
 
@@ -145,11 +148,11 @@
             <span class="product-card-text">Гостиница</span>
             <span class="product-card-text">От 4000 ₽</span>
             <a class="button button-card" href="#">подробнее</a>
-            <button class="button button-card button-card-favorite" type="button">В избранное</button>
+            <button class="button button-blue button-card button-card-favorite" type="button">В избранное</button>
             <p class="stars stars-four">
               <span class="visually-hidden">Гостиница четыре звезды</span>
             </p>
-            <span class="product-card-rating">Рейтинг: 8,5</span>
+            <span class="button button-grey button-product-rating">Рейтинг: 8,5</span>
           </li>
            <li class="product-card">
             <a class="product-card-link" href="# ">
@@ -159,11 +162,11 @@
             <span class="product-card-text">Гостиница</span>
             <span class="product-card-text">От 5000 ₽</span>
             <a class="button button-card" href="#">подробнее</a>
-            <button class="button button-card button-card-favorite" type="button">В избранное</button>
+            <button class="button button-green button-card button-card-favorite" type="button">В избранном</button>
             <p class="stars stars-four">
               <span class="visually-hidden">Гостиница четыре звезды</span>
             </p>
-            <span class="product-card-rating">Рейтинг: 9,2</span>
+            <span class="button button-grey button-product-rating">Рейтинг: 9,2</span>
           </li>
           <li class="product-card">
             <a class="product-card-link" href="# ">
@@ -173,11 +176,11 @@
             <span class="product-card-text">Гостиница</span>
             <span class="product-card-text">От 2500 ₽</span>
             <a class="button button-card" href="#">подробнее</a>
-            <button class="button button-card button-card-favorite" type="button">В избранное</button>
+            <button class="button button-blue button-card button-card-favorite" type="button">В избранное</button>
             <p class="stars stars-three">
               <span class="visually-hidden">Гостиница три звезды</span>
             </p>
-            <span class="product-card-rating">Рейтинг: 6,9</span>
+            <span class="button button-grey button-product-rating">Рейтинг: 6,9</span>
           </li>
           <li class="product-card">
             <a class="product-card-link" href="# ">
@@ -187,17 +190,17 @@
             <span class="product-card-text">Гостиница</span>
             <span class="product-card-text">От 1500 ₽</span>
             <a class="button button-card" href="#">подробнее</a>
-            <button class="button button-card button-card-favorite" type="button">В избранное</button>
+            <button class="button button-blue button-card button-card-favorite" type="button">В избранное</button>
             <p class="stars stars-two">
               <span class="visually-hidden">Гостиница две звезды</span>
             </p>
-            <span class="product-card-rating">Рейтинг: 5,0</span>
+            <span class="button button-grey button-product-rating">Рейтинг: 5,0</span>
           </li>
         </ul>
 
          <ul class="pagination">
-          <li class="pagination-item">
-            <a class="pagination-link pagination-current">1</a>
+          <li class="pagination-item pagination-current">
+            <a class="pagination-link">1</a>
           </li>
           <li class="pagination-item">
             <a class="pagination-link" href="#">2</a>
@@ -208,7 +211,7 @@
           <li class="pagination-item">
             <a class="pagination-link" href="#">4</a>
           </li>
-          <li class="pagination-item">
+          <li class="pagination-item pagination-between">
             <a class="pagination-link" href="#">...</a>
           </li>
           <li class="pagination-item">
@@ -220,11 +223,11 @@
 
 
       <section class="subscribe catalog-subscribe">
-        <h2 class="section-title subscribe-title">Подпишитесь на рассылку</h2>
+        <h2 class="title subscribe-title">Подпишитесь на рассылку</h2>
         <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
           <input class="subscribe-email" type="text" name="email" placeholder="Ваш e-mail" required>
-          <button class="button subscribe-button" type="submit">Подписаться</button>
+          <button class="button button-blue subscribe-button" type="submit">Подписаться</button>
         </form>
       </section>
 

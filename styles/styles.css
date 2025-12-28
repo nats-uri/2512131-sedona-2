@@ -49,6 +49,32 @@ body {
   text-decoration: none;
 }
 
+.button-blue {
+  background-color: #82B3D3;
+}
+
+.button-clear {
+  background-color: inherit;
+}
+
+.button-green {
+  background-color: #7DB54F;
+}
+
+.button-white {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.button-grey {
+  color: #333333;
+  background-color: #F2F2F2;
+}
+
+.button-product-rating {
+  font-weight: 400;
+}
+
 .hero {
   text-align: center;
 }
@@ -127,12 +153,119 @@ body {
 .subscribe-button {
   font-size: 20px;
   line-height: 36px;
-  background-color: #82B3D3;
+}
+
+.footer-contacts-list {
+  list-style: none;
+}
+
+.social-list {
+  list-style: none;
 }
 
 .contact-phone {
   font-size: 40px;
   line-height: 40px;
   text-decoration: none;
+  text-transform: uppercase;
   color: #000000;
+}
+
+.catalog-filter {
+  color: #ffffff;
+  background-color: #756157;
+  background-image: url(../images/catalog-filter-background.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.catalog-header-title {
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs {
+  list-style: none;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.catalog-filter-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.catalog-filter-list {
+  font-size: 18px;
+  line-height: 23px;
+  list-style: none;
+}
+
+.select-control {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.product-list {
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  list-style: none;
+}
+
+.product-card {
+  background-color: #E5E5E5;
+}
+
+.product-card-link {
+  text-decoration: none;
+}
+
+.product-card-title {
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.pagination {
+  list-style: none;
+}
+
+.pagination-item {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.pagination-link {
+  text-decoration: none;
+}
+
+.pagination-current {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.pagination-between {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #000000;
+  background-color: inherit;
+}
+
+.catalog-subscribe {
+  background-image: none;
+  background-color: #FFFFFF;
+}
+
+.catalog-subscribe .subscribe-title {
+  color: #000000;
+}
+
+.catalog-subscribe .subscribe-description {
+  color: #333333;
 }
